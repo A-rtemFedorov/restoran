@@ -1,0 +1,32 @@
+.comments {
+    padding: 108px 260px;
+    min-height: 550px;
+    background: #E6E5E5;
+    text-align: center;
+    &__text {
+        padding: 0 260px;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+    }
+    img {
+        margin-top: 20px;
+        border-radius: 100%;
+    }
+    &__visitor {
+        margin-top: 17px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+    }
+    &__name {
+        margin-top: 9px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+    }
+}

@@ -1,0 +1,23 @@
+.booking {
+    height: 357px;
+    background: url(../../background/bg.jpg);
+    display: flex;
+    align-items: center;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 60px;
+        color: #D67E34;
+    }
+    &__text {
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+    }
+}

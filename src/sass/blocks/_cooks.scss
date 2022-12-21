@@ -1,0 +1,17 @@
+.cook {
+    padding-bottom: 100px;
+    &__title {
+        margin-bottom: 107px;
+        font-weight: 400;
+        font-size: 54px;
+        text-align: center;
+        color: #000000;
+        span {
+            color :#D67E34;
+        }
+    }
+    &__img {
+        display: flex;
+        justify-content: space-around;
+    }
+}

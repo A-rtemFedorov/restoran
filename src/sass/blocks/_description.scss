@@ -1,0 +1,98 @@
+.description {
+    padding-bottom: 122px;
+    height: 991;
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        transform: translateY(-35%);
+        img {
+            margin-top: 40px;
+            margin-bottom: 5px;
+        }
+        &__item {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 349px;
+            height: 328px;
+            background-color: #fff;
+            box-shadow: #797878;
+            box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.3);
+        }
+        &__title {
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 30px;
+            color: #2C2C2C;
+            margin-bottom: 20px;
+            text-align: center;
+            &__subtitle{
+                color: #BC9060;
+            }
+        }
+        &__text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 30px;
+            text-align: center;
+            color: #656363;
+        }
+
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        .history {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            &__text {
+                display: flex;
+                flex-direction: column;
+            }
+            &__title {
+                font-weight: 400;
+                font-size: 54px;
+                line-height: 62px;
+                color: #000000;
+                text-align: center;
+            }
+            &__subtitle {
+                color: #D67E34;
+            }
+            &__descr {
+                margin-top: 21px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                text-align: center;
+                color: #656363;
+                width: 400px;
+                min-height: 217px;
+            }
+        }
+        .range {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 39px;
+            &__amount {
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 54px;
+                text-align: center;
+                color: #BC9060;
+            }
+            &__view {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 27px;
+                text-align: center;
+                color: #000000;
+            }
+        }    
+    }   
+}
