@@ -3,7 +3,6 @@
     padding-right: 165px;
 }
 
-@import 'libs/bootstrap.min';
 @import 'libs/font';
 
 @import 'blocks/header';
@@ -15,8 +14,4 @@
 @import 'blocks/comments';
 @import 'blocks/gallery';
 @import 'blocks/cooks';
-
-footer {
-    background: url(../background/st.jpg) center (center/cover) no-repeat;
-    height: 732px;
-}
+@import 'blocks/footer';

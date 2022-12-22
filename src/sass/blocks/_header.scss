@@ -16,16 +16,16 @@
         width: 400px;
         display: inline-flex;
         justify-content: space-around;
-        &-menu {
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 19px;
-            color: #FFF;
-            text-transform: uppercase;
-            text-decoration: none;
-            &:hover {
-                color: orange;
-            }
+    }
+    &__link {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFF;
+        text-transform: uppercase;
+        text-decoration: none;
+        &:hover {
+            color: orange;
         }
     }
     &__cart{
@@ -42,8 +42,6 @@
             border-color: #fff;
             border-bottom: none;
             width: 51px;
-            
-            
         }
     }
     .phone {
@@ -87,14 +85,13 @@
         &__big {
             font-weight: 400;
             font-size: 80px;
-            line-height: 92px;
+            line-height: 85px;
             color: #D67E35;
         }
         h1 {
             display: flex;
             justify-content: center;
             align-items:center;
-            margin-top: 12px;
             font-weight: 400;
             font-size: 18px;
             color: #fff;
