@@ -5,9 +5,9 @@
         font-weight: 400;
         font-size: 54px;
         text-align: center;
-        color: #000000;
+        color: $title-color;
         span {
-            color :#D67E34;
+            color :$subtitle-color;
         }
     }
     &__img {

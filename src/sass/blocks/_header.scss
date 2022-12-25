@@ -80,18 +80,19 @@
             font-weight: 400;
             font-size: 50px;
             line-height: 57px;
-            color: #D67E35;
+            color: $subtitle-color;
         }
         &__big {
             font-weight: 400;
             font-size: 80px;
             line-height: 85px;
-            color: #D67E35;
+            color: $subtitle-color;
         }
         h1 {
             display: flex;
             justify-content: center;
             align-items:center;
+            margin: 0;
             font-weight: 400;
             font-size: 18px;
             color: #fff;

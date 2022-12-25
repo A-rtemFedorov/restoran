@@ -1,9 +1,9 @@
 .container {
-    padding-left: 165px;
-    padding-right: 165px;
+    padding: 0 360px;
 }
 
-@import 'libs/font';
+$title-color: #000;
+$subtitle-color: #D67E34;
 
 @import 'blocks/header';
 @import 'blocks/button';

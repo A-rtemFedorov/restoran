@@ -6,7 +6,7 @@
         justify-content: space-around;
         transform: translateY(-35%);
         img {
-            margin-top: 40px;
+            margin-top: 50px;
             margin-bottom: 5px;
         }
         &__item {
@@ -15,10 +15,9 @@
             justify-content: flex-start;
             align-items: center;
             padding: 0 40px;
-            width: 349px;
-            min-height: 328px;
+            width: 300px;
+            min-height: 349px;
             background-color: #fff;
-            box-shadow: #797878;
             box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.3);
         }
         &__title {
@@ -56,11 +55,11 @@
                 font-weight: 400;
                 font-size: 54px;
                 line-height: 62px;
-                color: #000000;
+                color: $title-color;
                 text-align: center;
             }
             &__subtitle {
-                color: #D67E34;
+                color: $subtitle-color;
             }
             &__descr {
                 font-family: 'Open Sans';

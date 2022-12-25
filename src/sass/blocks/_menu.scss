@@ -1,6 +1,6 @@
 .menu {
     padding: 98px 0 226px 0;
-    background: url(../../background/bar.jpg);
+    background: url(../../background/bar.jpg) top (center/cover) no-repeat;
     &__title {
         text-align: center;
         font-weight: 400;
@@ -11,10 +11,10 @@
     &__cards {
         display: flex;
         justify-content: space-around;
-        margin-top: 140px;
+        margin-top: 138px;
     }
     &__card {
-        padding: 60px 59px 29px 59px;
+        padding: 80px 59px 29px 59px;
         text-align: center;
         justify-content: center;
         background-color: #fff;

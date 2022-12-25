@@ -1,17 +1,16 @@
 .booking {
-    height: 357px;
+    padding: 80px 0 109px 0;
     background: url(../../background/bg.jpg);
-    display: flex;
-    align-items: center;
     &__items {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     &__title {
         font-weight: 400;
         font-size: 52px;
         line-height: 60px;
-        color: #D67E34;
+        color: $subtitle-color;
     }
     &__text {
         font-family: 'Open Sans';

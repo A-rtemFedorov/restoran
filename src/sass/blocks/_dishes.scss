@@ -1,21 +1,20 @@
 .dishes {
-    height: 963px;
-    padding: 150px 0;
+    padding: 132px 0 152px 0;
     &__title {
         text-align: center;
         font-weight: 400;
         font-size: 54px;
         line-height: 62px;
-        color: #000000;
+        color: $title-color;
         margin-bottom: 100px;
     }
     &__subtitle {
-        color: #D67E34;
+        color: $subtitle-color;
     }
     &__items {
         display: flex;
+        justify-content: center;
         flex-direction: row;
-  
         align-items: center;
     }
     &__menu {

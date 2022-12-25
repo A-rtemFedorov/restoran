@@ -1,7 +1,6 @@
 {
   "name": "restorun",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,15 +16,21 @@
   },
   "homepage": "https://github.com/A-rtemFedorov/restoran#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.10",
+    "browser-sync": "^2.27.11",
+    "gifsicle": "^7.0.1",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-htmlmin": "^5.0.1",
     "imagemin": "^8.0.1",
+    "mozjpeg": "^8.0.0",
+    "optipng": "^4.2.0",
     "rename": "^1.0.4",
-    "sass": "^1.57.0"
+    "sass": "^1.57.1",
+    "svgo": "^3.0.2"
   },
   "dependencies": {
-    "autoprefixer": "10.4.5"
-  }
+    "autoprefixer": "10.4.5",
+    "gulp-imagemin": "^7.1.0"
+  },
+  "description": ""
 }
