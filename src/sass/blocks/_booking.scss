@@ -7,10 +7,9 @@
         align-items: center;
     }
     &__title {
-        font-weight: 400;
         font-size: 52px;
         line-height: 60px;
-        color: $subtitle-color;
+        color: $primary-light;
     }
     &__text {
         font-family: 'Open Sans';
@@ -18,6 +17,6 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 33px;
-        color: #FFFFFF;
+        color: $white-main;
     }
 }

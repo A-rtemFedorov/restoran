@@ -3,9 +3,8 @@
     background: url(../../background/bar.jpg) top (center/cover) no-repeat;
     &__title {
         text-align: center;
-        font-weight: 400;
         font-size: 54px;
-        color: #FFFFFF;
+        color: $white-main;
         text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     }
     &__cards {
@@ -17,20 +16,18 @@
         padding: 80px 59px 29px 59px;
         text-align: center;
         justify-content: center;
-        background-color: #fff;
+        background-color: $white-light;
     }
     &__subtitle {
         margin-top: 18px;
-        font-weight: 400;
         font-size: 26px;
-        color: #000000;
+        color: $secondary-main;
     }
     &__text {
         margin-top: 17px;
-        font-weight: 400;
         font-size: 16px;
         line-height: 18px;
-        color: #000000;
+        color: $secondary-main;
     }
     
     

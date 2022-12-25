@@ -2,8 +2,13 @@
     padding: 0 360px;
 }
 
-$title-color: #000;
-$subtitle-color: #D67E34;
+$primary-light: #D67E34;
+$primary-main: #FF7400;
+$primary-dark: #BC9060;
+$secondary-main: #000;
+$white-main: #fff;
+$white-light: #E6E5E5;
+$white-dark: #656363;
 
 @import 'blocks/header';
 @import 'blocks/button';

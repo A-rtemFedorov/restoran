@@ -1,13 +1,12 @@
 .gallery {
     padding: 101px 167px;
     &__title {
-        font-weight: 400;
         font-size: 54px;
-        color: $title-color;
+        color: $secondary-main;
         text-align: center;
     }
     &__subtitle {
-        color: $subtitle-color;
+        color: $primary-light;
     }
     &__images {
         margin-top: 60px;

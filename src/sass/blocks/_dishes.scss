@@ -2,14 +2,13 @@
     padding: 132px 0 152px 0;
     &__title {
         text-align: center;
-        font-weight: 400;
         font-size: 54px;
         line-height: 62px;
-        color: $title-color;
+        color: $secondary-main;
         margin-bottom: 100px;
     }
     &__subtitle {
-        color: $subtitle-color;
+        color: $primary-light;
     }
     &__items {
         display: flex;
@@ -31,24 +30,22 @@
     &__text {
         display: flex;
         align-items:center;
-        font-weight: 400;
         font-size: 26px;
-        color: #000000;
+        color: $secondary-main;
         margin-left: 30px;
         &:after {
             display: flex;
             content: '';
-            margin: 0 7px;
+            margin: 0 10px;
             width: 204px;
-            height: 1;
-            border: 1px dotted #000000;
+            border: 4px dotted $secondary-main;
             transform: rotate(0.14deg);
+            border-bottom: none;
         }
     }
     &__price {
-        font-weight: 400;
         font-size: 26px;
-        color: #000000;
+        color: $secondary-main;
     }
     
 }

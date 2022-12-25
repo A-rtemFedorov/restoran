@@ -25,7 +25,7 @@
         text-transform: uppercase;
         text-decoration: none;
         &:hover {
-            color: orange;
+            color: $primary-main;
         }
     }
     &__cart{
@@ -39,29 +39,27 @@
             margin-left: 15px;
             border: 1px solid;
             transform: rotate(90deg);
-            border-color: #fff;
+            border-color: $white-main;
             border-bottom: none;
             width: 51px;
         }
     }
     .phone {
-        margin-top: 55px;
-        &__namber {
-            display: flex;
-            align-items: center;
-        }
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         &__info {
-            font-weight: 400;
             font-size: 14px;
-            color: #FFF;
+            color: $white-main;
         }
         a {
-            color: #FFF;
+            color: $white-main;
             text-decoration: none;
             font-weight: 700;
             font-size: 18px;
             &:hover {
-                   color: orange;
+                   color: $primary-main;
             }
         }
     }
@@ -77,32 +75,29 @@
             top: 250px;
         }
         &__sub {
-            font-weight: 400;
             font-size: 50px;
             line-height: 57px;
-            color: $subtitle-color;
+            color: $primary-light;
         }
         &__big {
-            font-weight: 400;
             font-size: 80px;
             line-height: 85px;
-            color: $subtitle-color;
+            color: $primary-light;
         }
         h1 {
             display: flex;
             justify-content: center;
             align-items:center;
             margin: 0;
-            font-weight: 400;
             font-size: 18px;
-            color: #fff;
+            color: $white-main;
             text-transform: uppercase;
             &:before, &:after {
                 content:'';
                 margin: 0 45px;
                 transform: rotate(90deg);
-                border: 1px solid #fff;
-                border-color: #fff;
+                border: 1px solid $white-main;
+                border-color: $white-main;
                 border-left: none;
                 height: 60px;
             }
