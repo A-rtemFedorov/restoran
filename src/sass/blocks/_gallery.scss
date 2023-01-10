@@ -16,7 +16,7 @@
     }
     &__img {
         margin-right: 20px;
-        width: 540px;
+        max-width: 540px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -25,6 +25,7 @@
         }
         img {
             margin-bottom: 20px;
+            width: 100%;
         }
     }
 }

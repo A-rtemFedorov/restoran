@@ -44,6 +44,12 @@
             width: 51px;
         }
     }
+    .checkbox {
+        display: none;
+    }
+    &__burger {
+        display: block;
+    }
     .phone {
         margin-top: 40px;
         display: flex;
@@ -81,7 +87,6 @@
         }
         &__big {
             font-size: 80px;
-            line-height: 85px;
             color: $primary-light;
         }
         h1 {

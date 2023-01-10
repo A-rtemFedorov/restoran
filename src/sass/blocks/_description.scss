@@ -1,12 +1,12 @@
 .description {
     padding-bottom: 122px;
-    height: 991px;
+    min-height: 991px;
     .cards {
         display: flex;
         justify-content: space-around;
         transform: translateY(-35%);
         img {
-            margin-top: 50px;
+            margin-top: 30px;
             margin-bottom: 5px;
         }
         &__item {
@@ -14,11 +14,11 @@
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-            padding: 0 40px;
-            width: 300px;
-            min-height: 349px;
+            padding: 10px 9px;
+            max-width: 300px;
+            min-height: 300px;
             background-color: $white-main;
-            box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 50px 10px $secondary-light;
         }
         &__title {
             font-size: 26px;
@@ -50,7 +50,6 @@
             }
             &__title {
                 font-size: 54px;
-                line-height: 62px;
                 color: $secondary-main;
                 text-align: center;
             }
@@ -64,7 +63,7 @@
                 line-height: 22px;
                 text-align: center;
                 color: $white-dark;
-                width: 450px;
+                max-width: 450px;
             }
         }
         .range {
