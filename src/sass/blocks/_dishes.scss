@@ -1,0 +1,53 @@
+.dishes {
+    padding: 132px 0 152px 0;
+    &__title {
+        text-align: center;
+        font-size: 54px;
+        color: $secondary-main;
+        margin-bottom: 100px;
+    }
+    &__subtitle {
+        color: $primary-light;
+    }
+    &__items {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__menu {
+        margin-left: 30px;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        &:nth-child(3) {
+            margin-bottom: 0;
+        }
+    }
+    &__info {
+        display: flex;
+    }
+    &__text {
+        display: flex;
+        align-items:center;
+        font-size: 26px;
+        color: $secondary-main;
+        margin-left: 30px;
+        &:after {
+            display: flex;
+            content: '';
+            margin: 0 10px;
+            width: 204px;
+            border: 4px dotted $secondary-main;
+            transform: rotate(0.14deg);
+            border-bottom: none;
+        }
+    }
+    &__price {
+        font-size: 26px;
+        color: $secondary-main;
+    }
+    
+}

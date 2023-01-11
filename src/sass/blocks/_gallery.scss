@@ -1,0 +1,31 @@
+.gallery {
+    padding: 101px 167px;
+    &__title {
+        font-size: 54px;
+        color: $secondary-main;
+        text-align: center;
+    }
+    &__subtitle {
+        color: $primary-light;
+    }
+    &__images {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    &__img {
+        margin-right: 20px;
+        max-width: 540px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &:nth-child(2) {
+            flex-wrap: wrap-reverse;
+        }
+        img {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    }
+}

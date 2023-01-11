@@ -1,0 +1,31 @@
+.button {
+    padding: 19px 14px;
+    background: $primary-main;
+    font-weight: 700;
+    font-size: 14px;
+    color: $white-main;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover {
+        background-color: $primary-dark;
+        color: $secondary-main;
+    }
+    &__header {
+        margin-top: 65px;
+    }
+    &__title {
+        align-self: center;
+        padding: 14px 28px;
+    }
+    &__menu {
+        margin-top: 20px;
+        padding: 14px 68px;
+        background: $primary-dark;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+        &:hover {
+            background-color: $primary-light;
+        }
+    }    
+}

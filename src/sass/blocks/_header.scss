@@ -1,0 +1,111 @@
+.header {
+    width: 100%;
+    min-height: 1000px;
+    background: url(../../background/hero.jpg) center (center/cover) no-repeat;
+    &__line {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        display: inline-block;
+        padding-top: 50px;
+    }
+    &__nav {
+        margin-top: 74px;
+        margin-left: 270px;
+        width: 400px;
+        display: inline-flex;
+        justify-content: space-around;
+    }
+    &__link {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFF;
+        text-transform: uppercase;
+        text-decoration: none;
+        &:hover {
+            color: $primary-main;
+        }
+    }
+    &__cart{
+        margin-top: 70px;
+        width: 20px;
+        height: 20px;
+        &:after {
+            content: '';
+            display: block;
+            margin-top: -10px;
+            margin-left: 15px;
+            border: 1px solid;
+            transform: rotate(90deg);
+            border-color: $white-main;
+            border-bottom: none;
+            width: 51px;
+        }
+    }
+    .checkbox {
+        display: none;
+    }
+    &__burger {
+        display: block;
+    }
+    .phone {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &__info {
+            font-size: 14px;
+            color: $white-main;
+        }
+        a {
+            color: $white-main;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+            &:hover {
+                   color: $primary-main;
+            }
+        }
+    }
+    .title {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        &__info {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            text-align: center;
+            top: 250px;
+        }
+        &__sub {
+            font-size: 50px;
+            line-height: 57px;
+            color: $primary-light;
+        }
+        &__big {
+            font-size: 80px;
+            color: $primary-light;
+        }
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            margin: 0;
+            font-size: 18px;
+            color: $white-main;
+            text-transform: uppercase;
+            &:before, &:after {
+                content:'';
+                margin: 0 45px;
+                transform: rotate(90deg);
+                border: 1px solid $white-main;
+                border-color: $white-main;
+                border-left: none;
+                height: 60px;
+            }
+        }
+    }   
+}

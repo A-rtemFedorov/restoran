@@ -1,0 +1,30 @@
+.container {
+    padding: 0 360px;
+}
+
+$primary-light: #D67E34;
+$primary-main: #FF7400;
+$primary-dark: #BC9060;
+$secondary-main: #000;
+$secondary-light: rgba(0,0,0,0.3);
+$white-main: #fff;
+$white-light: #E6E5E5;
+$white-dark: #656363;
+
+
+
+@import 'utils/reset';
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/description';
+@import 'blocks/booking';
+@import 'blocks/dishes';
+@import 'blocks/menu';
+@import 'blocks/comments';
+@import 'blocks/gallery';
+@import 'blocks/cooks';
+@import 'blocks/footer';
+@import 'blocks/fonts';
+@import 'blocks/media';
+@import 'slick/slick';
+@import 'slick/slick-theme';

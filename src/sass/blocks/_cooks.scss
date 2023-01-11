@@ -1,0 +1,16 @@
+.cook {
+    padding-bottom: 100px;
+    &__title {
+        margin-bottom: 107px;
+        font-size: 54px;
+        text-align: center;
+        color: $secondary-main;
+        span {
+            color :$primary-light;
+        }
+    }
+    &__img {
+        display: flex;
+        justify-content: space-around;
+    }
+}
